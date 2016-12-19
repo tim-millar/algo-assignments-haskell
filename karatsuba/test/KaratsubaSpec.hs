@@ -1,4 +1,4 @@
-module KaratsubaSpec (spec) where
+module KaratsubaSpec (main, spec) where
 
 import Test.Hspec
 import Test.QuickCheck

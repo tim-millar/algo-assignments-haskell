@@ -32,6 +32,8 @@ test-suite karatsuba-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs
+  other-modules:       Data.String.StripSpec
+                     , KaratsubaSpec
   build-depends:       base
                      , karatsuba
                      , hspec
